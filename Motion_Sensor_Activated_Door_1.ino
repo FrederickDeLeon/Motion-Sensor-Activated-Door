@@ -1,3 +1,12 @@
+/*** header block ***
+ * code file name: Motion_Sensor_Activated_Door_1
+ * code description: This program is loaded on the first Arduino board and it governs the PIR sensor and the 16x2 LCD's output
+ * MCU board used: Arduino MEGA 2560 Microcontroller Development Board
+ * programmer(s) name: Frederick De Leon
+ * date when code is created/modified: 05/17/2022
+ * code version: v1.0
+ ***/
+
 #include <LiquidCrystal.h>
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
