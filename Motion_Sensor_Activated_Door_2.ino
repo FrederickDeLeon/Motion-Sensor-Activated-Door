@@ -1,3 +1,12 @@
+/*** header block ***
+ * code file name: Motion_Sensor_Activated_Door_2
+ * code description: This program is loaded on the second Arduino board and it simulates the functions of an encoder for the motor that controls the door
+ * MCU board used: Arduino MEGA 2560 Microcontroller Development Board
+ * programmer(s) name: Frederick De Leon
+ * date when code is created/modified: 05/17/2022
+ * code version: v1.0
+ ***/
+
 // timers is incremented every 100ms = 0.1s
 unsigned long heartbeat_timer;
 unsigned long update_encoder_timer_in_ms;
